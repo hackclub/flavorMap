@@ -377,7 +377,7 @@
          "layers":[
                 {
                  "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 3980, 0, 0, 0, 0, 3980, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 2956, 0, 0, 0, 0, 2956, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 142, 143, 144, 0, 183, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 152, 153, 154, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -391,7 +391,7 @@
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 3980, 0, 0, 3980, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 2956, 0, 0, 2956, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1908, 1909, 1910,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1933, 1934, 1935,
@@ -620,73 +620,17 @@
          "tilewidth":32
         }, 
         {
-         "columns":2,
+         "columns":1,
          "firstgid":2956,
          "image":"public\/images\/hack-club-square.png",
          "imageheight":32,
          "imagewidth":32,
          "margin":0,
-         "name":"HackCLubLogoSquare",
+         "name":"singleTileHC",
          "spacing":0,
-         "tilecount":1024,
-         "tileheight":16,
-         "tilewidth":16
-        }, 
-        {
-         "firstgid":3980,
-         "source":"tilesets\/HackCLubLogoSquare.tsx"
-        }, 
-        {
-         "columns":2,
-         "firstgid":3981,
-         "image":"public\/images\/hack-club-square.png",
-         "imageheight":32,
-         "imagewidth":32,
-         "margin":0,
-         "name":"HackClubSquare",
-         "spacing":0,
-         "tilecount":4,
-         "tileheight":16,
-         "tilewidth":16
-        }, 
-        {
-         "columns":2,
-         "firstgid":3985,
-         "image":"public\/images\/hack-club-square.png",
-         "imageheight":32,
-         "imagewidth":32,
-         "margin":0,
-         "name":"HackClubSquare",
-         "spacing":0,
-         "tilecount":4,
-         "tileheight":16,
-         "tilewidth":16
-        }, 
-        {
-         "columns":2,
-         "firstgid":3989,
-         "image":"public\/images\/hack-club-square.png",
-         "imageheight":32,
-         "imagewidth":32,
-         "margin":0,
-         "name":"HackClubSquare",
-         "spacing":0,
-         "tilecount":4,
-         "tileheight":16,
-         "tilewidth":16
-        }, 
-        {
-         "columns":2,
-         "firstgid":3993,
-         "image":"public\/images\/hack-club-square.png",
-         "imageheight":32,
-         "imagewidth":32,
-         "margin":0,
-         "name":"HackClubSquare",
-         "spacing":0,
-         "tilecount":4,
-         "tileheight":16,
-         "tilewidth":16
+         "tilecount":1,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
