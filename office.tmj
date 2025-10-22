@@ -620,12 +620,73 @@
          "tilewidth":32
         }, 
         {
+         "columns":2,
          "firstgid":2956,
-         "source":"tilesets\/HackCLubLogoSquare.tsx"
+         "image":"public\/images\/hack-club-square.png",
+         "imageheight":32,
+         "imagewidth":32,
+         "margin":0,
+         "name":"HackCLubLogoSquare",
+         "spacing":0,
+         "tilecount":1024,
+         "tileheight":16,
+         "tilewidth":16
         }, 
         {
          "firstgid":3980,
          "source":"tilesets\/HackCLubLogoSquare.tsx"
+        }, 
+        {
+         "columns":2,
+         "firstgid":3981,
+         "image":"public\/images\/hack-club-square.png",
+         "imageheight":32,
+         "imagewidth":32,
+         "margin":0,
+         "name":"HackClubSquare",
+         "spacing":0,
+         "tilecount":4,
+         "tileheight":16,
+         "tilewidth":16
+        }, 
+        {
+         "columns":2,
+         "firstgid":3985,
+         "image":"public\/images\/hack-club-square.png",
+         "imageheight":32,
+         "imagewidth":32,
+         "margin":0,
+         "name":"HackClubSquare",
+         "spacing":0,
+         "tilecount":4,
+         "tileheight":16,
+         "tilewidth":16
+        }, 
+        {
+         "columns":2,
+         "firstgid":3989,
+         "image":"public\/images\/hack-club-square.png",
+         "imageheight":32,
+         "imagewidth":32,
+         "margin":0,
+         "name":"HackClubSquare",
+         "spacing":0,
+         "tilecount":4,
+         "tileheight":16,
+         "tilewidth":16
+        }, 
+        {
+         "columns":2,
+         "firstgid":3993,
+         "image":"public\/images\/hack-club-square.png",
+         "imageheight":32,
+         "imagewidth":32,
+         "margin":0,
+         "name":"HackClubSquare",
+         "spacing":0,
+         "tilecount":4,
+         "tileheight":16,
+         "tilewidth":16
         }],
  "tilewidth":32,
  "type":"map",
