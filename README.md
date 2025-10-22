@@ -1,32 +1,39 @@
-# WorkAdventure Map Starter Kit
+# Map Editing Starter Kit
 
-![office map thumbnail](./office.png)
+![office map thumbnail](https://hc-cdn.hel1.your-objectstorage.com/s/v3/ce6bbeda3d0d9f68e2fb4782877c955aab87580b_image.png)
 
-This is a starter kit to help you build your own map for [WorkAdventure](https://workadventu.re).
+This codebase controls the map (including assets, bounding boxes and event triggers) for [flavortown](https://flavor-adventure.hackclub.com). 
 
-To understand how to use this starter kit, follow the tutorial at [https://docs.workadventu.re/map-building/tiled-editor/](https://docs.workadventu.re/map-building/tiled-editor/).
+Flavor Town / Work Adventure loads the map from a URL, in our case, https://hackclub.github.io/flavorMap/ (hosted with github pages. Changes to the Repo are automatically applied) 
 
-If you have any questions, feel free to ask in [WorkAdventure office](https://play.staging.workadventu.re/@/tcm/workadventure/wa-village).
+Eventually I intend to create a slack bot that will add custom assets into the map files. As of now feel free to PR. The map is in 32*32px, I recommend editing with the Tiled editor, as it handles tmj files well.
 
-## Upload your map
+Work Adventure has good guidance on this: [https://docs.workadventu.re/map-building/tiled-editor/](https://docs.workadventu.re/map-building/tiled-editor/).
 
-In the .env file you can set your upload strategy to `GH_PAGES` (default) or `MAP_STORAGE`. Simply comment the option you don't want to use.
+For issues, questions or suggestions, DM me @EuanRipper on slack. (Don't tell me i pushed the .env, it is non sensitive!)
 
-Uploading a map using [Github Pages](https://docs.github.com/pages) will host your project in the Github servers and it's the most straight forward way to add new maps to your world.
+## How to edit the map
 
-Uploading a map using the [WA map storage](https://docs.workadventu.re/map-building/tiled-editor/publish/wa-hosted) will host your project in the WA servers. It's a bit more difficult to setup but it comes with great advantages like being able to have private repositories.
+Currently FlavourTown run the office.tmj file. Clone this repo and open the office.tmj file in Tiled (make sure it is within this repo, not an isolated file.)
 
-## Structure
+When adding in any external assets, be sure to add them to the public images in this repo and embedd the tileset into the map, **this is important**.
 
-We recommend following this file structure:
+
+## Contribution Guidelines
+
+-If you make a change that invalidates information in this README, update this README. 
+
+-Always follow this file structure:
 
 * *public/*: Static files like PDFs or audio files
 * *src/*: Scripts files or design source files
 * *tilesets/*: All PNG tilesets
 
+-Your Pull request should include a screenshot of the change, along with a thorough explanation of changes made. It is very hard to identify changes made  by looking at the files in code, and there isn't version history in Tiled -please describe what you have done properly!
+
 > **Pro tips**
-> If you want to use more than one map file, just add the new map file in the root folder (we recommend creating a copy of *office.tmj* and editing it, in order to avoid any mistakes).
-> We recommend using 512x512 images for the map thumbnails.
+> If you want to use more than one map file, just add the new map file in the root folder (I recommend creating a copy of *office.tmj* and editing it, in order to avoid any mistakes).  
+> use 512x512 images for the map thumbnails.
 > If you are going to create custom websites to embed in the map, please reference the HTML files in the `input` option in *vite.config.js*.
 
 ## Requirements
@@ -60,9 +67,9 @@ You can manually upload your map to the map storage by running:
 npm run deploy
 ```
 
-## Licenses
+## Licenses 
+Do not violate the license agreements of WorkAdventure:
 
-This project contains multiple licenses as follows:
 
 * [Code license](./LICENSE.code) *(all files except those for other licenses)*
 * [Map license](./LICENSE.map) *(`office.tmj` and the map visual as well)*
