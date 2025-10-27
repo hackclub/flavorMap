@@ -16,9 +16,10 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use(express.static('public'));
+// serve statics first
+app.use(express.static(__dirname));
 
-// Wildcard route to serve house.tmj
+// Wildcard route to serve house.tmj after statics
 app.get('/*', (req, res) => {
     const title = req.params[0]; // Get the title from the URL
     res.sendFile(path.join(__dirname, 'house.tmj'), { headers: { 'Content-Type': 'application/json' } });
