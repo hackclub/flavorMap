@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "vite",
+    "start": "node server.js",
     "build": "tsc && vite build",
     "prod": "vite preview",
     "upload": "npm run build && upload-wa-map",
@@ -21,6 +21,7 @@
     "wa-map-optimizer-vite": "^1.1.29"
   },
   "dependencies": {
-    "@workadventure/scripting-api-extra": "^1.8.1"
+    "@workadventure/scripting-api-extra": "^1.8.1",
+    "express": "^4.18.2"
   }
 }
