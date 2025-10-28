@@ -19,6 +19,13 @@ app.use((req, res, next) => {
 // serve statics first
 app.use(express.static(__dirname));
 
+// Dedicated route for courtyard map 
+app.get(['/courtyard', '/courtyard.tmj'], (req, res) => {
+    res.sendFile(path.join(__dirname, 'courtyard.tmj'), {
+        headers: { 'Content-Type': 'application/json' }
+    });
+});
+
 // Wildcard route to serve house.tmj after statics
 app.get('/*', (req, res) => {
     const title = req.params[0]; // Get the title from the URL
