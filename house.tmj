@@ -97,7 +97,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"..\/courtyard.tmj"
+                 "value":"\/courtyard.tmj"
                 }],
          "type":"tilelayer",
          "visible":true,
